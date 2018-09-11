@@ -1,7 +1,10 @@
 from pywinauto import Desktop, Application
 
-app = Application().start('pidgen.exe')
+app = Application().Start(cmd_line=u'"D:\\Program Files\\Double Commander\\doublecmd.exe"')
+dclass = app.DClass
+dclass.Wait('ready')
+menu_item = dclass.MenuItem(u'C&onfiguration->&Options...')
+menu_item.Click()
 
-app.PIDGen.edit2.set_text('aaaa')
-app.PIDGen.edit3.set_text('bbb')
-app.PIDGen.OK.click()
+# app.Double_Commander.print_control_identifiers()
+
