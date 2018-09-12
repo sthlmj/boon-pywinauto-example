@@ -1,4 +1,4 @@
-# Another pywinautu example
+# Another pywinauto example
 
 from pywinauto import Desktop, Application, keyboard
 import time
@@ -29,6 +29,3 @@ keyboard.SendKeys('{ENTER}')
 app2.Untitled.edit.type_keys(u'Automate{SPACE}any{SPACE}Windows{SPACE}Application')
 keyboard.SendKeys('{ENTER}')
 app2.Untitled.edit.type_keys(u'BY...{ENTER}Python')
-
-
-
