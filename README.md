@@ -11,3 +11,5 @@ This is so far from perfect but I hope every one can make this code better for a
 Thank you.
 
 Boon
+
+https://www.reddit.com/r/Python/comments/9f4jr7/another_example_for_pywinauto/
